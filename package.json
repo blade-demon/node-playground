@@ -12,7 +12,7 @@
     "prettier": "2.4.1"
   },
   "workspaces": [
-    "projects"
+    "projects/*"
   ],
   "scripts": {
     "prepare": "husky install",
