@@ -1,7 +1,7 @@
 {
-  "name": "api-proxy-server",
+  "name": "weather-fetcher",
   "version": "1.0.0",
-  "description": "Weather api demo",
+  "description": "Weather demo",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
