@@ -16,6 +16,9 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "test": ""
+    "test": "lerna run test",
+    "start": "npm run install && lerna run start --scope=weather-fetcher",
+    "install": "lerna exec \"npm install\" --scope=weather-fetcher",
+    "diff": "lerna run diff"
   }
 }
