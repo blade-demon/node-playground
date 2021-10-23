@@ -1,5 +1,8 @@
 {
   "name": "node-playground",
+  "author": {
+    "name": "William Xu"
+  },
   "private": true,
   "devDependencies": {
     "eslint-config-prettier": "^8.3.0",
