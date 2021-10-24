@@ -18,7 +18,7 @@
     "prepare": "husky install",
     "test": "npx lerna run test",
     "install": "npx lerna exec \"npm install\" --scope=weather-fetcher",
-    "start": "npm install && npx lerna run start --scope=weather-fetcher",
+    "start": "npx lerna run start --scope=weather-fetcher",
     "diff": "npx lerna run diff"
   }
 }
