@@ -16,5 +16,5 @@ app.use(limiter);
 app.set('trust proxy', 1);
 
 app.use('/api', require('./routes'));
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
